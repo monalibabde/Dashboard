@@ -1,0 +1,90 @@
+/* Emart.css */
+
+/* Container for overall layout */
+.emart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+  }
+  
+  /* Styling for the report card */
+  .report-container {
+    background: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  /* Report header */
+  .report-container h1 {
+    color: #2e7d32;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  /* Report paragraphs */
+  .report-container p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  /* Button container to align both buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  /* Next step button styling */
+  .next-step-btn {
+    background-color: #66bb6a;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-step-btn:hover {
+    background-color: #4caf50;
+  }
+  
+  /* Back button styling */
+  .back-step-btn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-step-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
